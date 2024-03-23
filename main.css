@@ -1,0 +1,99 @@
+.proflie {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.name {
+    text-align: center
+}
+
+.content{
+    text-align: center;
+}
+
+.front{
+    color: red;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 30px;
+    padding: 40px;
+    border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2opx;
+    box-shadow: 5px 5px 5px red;
+}
+
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hearder {
+    width: 100%;
+    height: 50px;
+    background: aquamarine;
+}
+
+
+
+.blog-content {
+    width: 80%;
+    height: 200px;
+    float: left;
+}
+
+.blog-img {
+    width: 20%;
+    height: 200px;
+    float: left;
+    background: yellow;
+    display: flex; /* 내부 요소를 가로 방향으로 배치 */
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+}
+.blog-img img {
+    width: auto; /* 가로 크기를 자동으로 조정하여 원본 비율을 유지 */
+    height: 100%; /* 세로 크기를 부모 요소의 높이에 맞춤 */
+    max-width: 100%; /* 이미지가 부모 요소를 벗어나지 않도록 */
+    max-height: 100%; /* 이미지가 부모 요소를 벗어나지 않도록 */
+}
+
+.blog-profile {
+    width: 50px;
+    display: block;
+    float: left;
+}
+
+.blog-name {
+    float: left;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none; /*밑줄제거*/
+    color: inherit; /*링크 색상 제거*/
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(img/shoes.jpg);
+}
