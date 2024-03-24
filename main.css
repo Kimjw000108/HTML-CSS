@@ -93,23 +93,20 @@
 }
 
 .main-background {
-    position: relative;
     width: 100%;
     height: 500px;
     background-image: url(img/shoes.jpg);
     background-size: cover;
-    background-repeat: no-repeat; /* 화면 작아졌을경우 반복안함*/
+    background-repeat: no-repeat;
     background-position: center;
-    filter: brightness(70%); 
     padding: 1px;
-    z-index: 0;
 }
 
 .main-title {
     color: white;
     font-size: 40px;
     margin-top: 50px;
-    margin-bottom: 20px; /*기본 마진 크기 작게*/
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -118,7 +115,6 @@
     font-size: 20px;
     margin-top: 10px;
     text-align: center;
-    
 }
 
 .main-button {
@@ -127,12 +123,12 @@
     background: white;
     border: none;
     border-radius: 5px;
-    position: absolute;  /*포지션 속성으로 중앙 정렬*/
+    position: absolute;
     left: 0;
     right: 0;
-    margin: auto;
+    margin: auto; /* 가로 중앙 정렬 */
     width: 150px;
-    z-index: 2;
+    z-index: 2; /* explain-box보다 위에 위치하도록 조정 */
 }
 
 .explain-box {
