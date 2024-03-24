@@ -117,4 +117,19 @@
     margin-top: 10px;
     margin-bottom: 10px; /*기본 마진 크기 작게*/
     text-align: center;
+    
+}
+
+.main-button {
+    padding: 15px;
+    font-size: 20px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;  /*포지션 속성으로 중앙 정렬*/
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+
 }
