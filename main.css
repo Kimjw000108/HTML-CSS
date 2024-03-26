@@ -132,12 +132,13 @@
 }
 
 .explain-box {
-    width: 700px;
+    width: 80%; /*width는 컨텐츠의 영역을 의미함. padding과 상관없음*/
+    max-width: 600px; /*최대폭 지정 */
     margin: auto;
     padding: 20px;
     text-align: center;
     background-color: #eee;
     position: relative;
-    top: -300px;
+    top: -40px;
     z-index: 1;
 }
