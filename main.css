@@ -1,3 +1,13 @@
+.div {
+    box-sizing: border-box; 
+}
+
+.body {
+    margin: 0; /*여백 제거*/
+}
+
+/* normalize.css 를 추가하여 브라우저간의 호환성 문제 해결하기(모양이 다른경우 있음) */
+
 .proflie {
     width: 100px;
     display: block;
@@ -132,7 +142,7 @@
 }
 
 .explain-box {
-    width: 80%; /*width는 컨텐츠의 영역을 의미함. padding과 상관없음*/
+    width: 80%; /*width는 컨텐츠의 영역을 의미함. padding, border 상관없음*/
     max-width: 600px; /*최대폭 지정 */
     margin: auto;
     padding: 20px;
@@ -141,4 +151,5 @@
     position: relative;
     top: -40px;
     z-index: 1;
+    box-sizing: border-box; /*width가 padding border 포함*/
 }
