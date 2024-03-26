@@ -1,12 +1,11 @@
-.div {
-    box-sizing: border-box; 
+div {
+    box-sizing: border-box; /*width가 border 과 padding 을 포함함.*/
 }
 
-.body {
+body {
     margin: 0; /*여백 제거*/
 }
 
-/* normalize.css 를 추가하여 브라우저간의 호환성 문제 해결하기(모양이 다른경우 있음) */
 
 .proflie {
     width: 100px;
@@ -151,5 +150,11 @@
     position: relative;
     top: -40px;
     z-index: 1;
-    box-sizing: border-box; /*width가 padding border 포함*/
+}
+
+input[type=text] {/*type이 text인 박스만 선택*/
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
