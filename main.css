@@ -6,6 +6,10 @@ body {
     margin: 0; /*여백 제거*/
 }
 
+table {
+    border-collapse: collapse;
+}
+
 
 .proflie {
     width: 100px;
@@ -14,6 +18,10 @@ body {
     margin-right: auto;
     margin-top: 200px;
     margin-bottom: 50px;
+}
+
+td, th {
+    border: 1px solid black; 
 }
 
 .name {
