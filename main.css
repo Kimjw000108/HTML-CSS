@@ -204,5 +204,5 @@ input[type=text] {/*type이 text인 박스만 선택*/
     display: block;
     margin-left: auto; /*오른쪽 정렬*/
     background-color: yellow;
-    border-radius: 5px;
+    border-radius: 5px; /*박스 모서리 둥글게*/
 }
