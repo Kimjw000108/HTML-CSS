@@ -249,7 +249,6 @@ input[type=text] {/*type이 text인 박스만 선택*/
 }
 
 .edit-cart-link {
-    float: left; /* 오른쪽으로 정렬합니다. */
 }
 
 .shopping-content {
@@ -259,4 +258,21 @@ input[type=text] {/*type이 text인 박스만 선택*/
 
 .payment-button {
     float: right; /* 오른쪽으로 정렬합니다. */
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer; /*마우스 올리면 커서 변함*/
+    padding: 10px;
+}
+
+
+.cart-payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    overflow:hidden;
+    height:auto;
 }
